@@ -11,8 +11,6 @@ class Post extends Model
     protected $fillable = [
         'type',
         'name',
-        'type',
-        'name',
         'appid',
         'required_age',
         'is_free',
@@ -28,6 +26,9 @@ class Post extends Model
         'background',
         'is_released',
         'release_date',
+        'current_price',
+        'origin_price',
+        'status'
     ];
 
     public function categories() {

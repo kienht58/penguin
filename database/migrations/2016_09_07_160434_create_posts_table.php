@@ -33,6 +33,9 @@ class CreatePostsTable extends Migration
             $table->string('background');
             $table->boolean('is_released');
             $table->datetime('release_date');
+            $table->integer('current_price');
+            $table->integer('origin_price');
+            $table->string('status');
         });
 
         Schema::create('categories', function (Blueprint $table) {

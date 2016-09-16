@@ -1,0 +1,400 @@
+
+.top-cover img{
+	align:middle;
+	width: 50%;
+}
+
+.custom{
+	background-color: #bdc3c7;
+	border-radius: 0px;
+	min-height: 70px;
+	font-family: 'Sriracha', cursive;
+	box-shadow: 0 4px 2px -2px gray;
+}
+.navbar-nav>li{
+	padding:8px;
+	min-height: 100%;
+}
+
+#navsearch{
+	padding:8px;
+}
+
+input{
+	border-radius: 0px!important;
+}
+
+button{
+	border-radius: 0px!important;
+}
+
+.mid{
+	margin-top:100px;
+}
+
+.space-1{
+	margin: 50px;
+}
+.space-2{
+	margin: 100px;
+}
+.space-3{
+	margin: 150px;
+}
+
+#myCarousel{
+	height: 412px;
+}
+
+
+
+.title{
+	font-size:30px;
+	font-family: 'Lobster', cursive;
+}
+
+.newg-content img{
+	width: 202px;
+}
+.newg-item{
+	cursor: pointer;
+	vertical-align: middle;
+	padding:15px;
+	height: 158px;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+.newg-item .title{
+	position: absolute;
+	bottom: 20px;
+	left:15%;
+	font-size: 15px;
+	font-family: 'Slabo 27px', serif;
+}
+
+.newg-item .price{
+	position: absolute;
+	bottom:1px;
+	left:15%;
+	font-size: 20px;
+	font-family: 'Slabo 27px', serif;
+}
+/* Button*/
+
+.moree{
+	text-align: center;
+	display: table;
+	width: 202px;
+	height: 100px;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(255,255,255,1) 0%, rgba(171,218,244,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(255,255,255,1) 0%,rgba(171,218,244,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(255,255,255,1) 0%,rgba(171,218,244,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#abdaf4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.moree{
+	cursor: pointer;
+}
+
+.moree span{
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Lobster';
+	font-size:30px;
+}
+.no-radius{
+	border-radius: 0px;
+}
+
+.game-float-wrapper{
+	position: relative;
+}
+
+.game-item{
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	width: 720px;
+	height: 69px;
+	margin:5px;
+	min-width: 617px;
+	position: relative;
+}
+
+.game-item img{
+	width: 184px;
+	height: 69px;
+	display: block;
+}
+.game-item-name{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	left: 190px;
+	top: 10px;
+	position: absolute;
+	font-family: 'Oswald', sans-serif;
+}
+.game-item-price{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	position: absolute;
+	right:20px;
+	top:30%;
+}
+.game-item-categories{
+	left:190px;
+	bottom:10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position: absolute;
+}
+
+.game-item-more{
+	margin-top: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	width: 720px;
+	min-width: 617px;
+	padding: 5px;
+	margin-left: 5px;	
+}
+
+.comming-title{
+	font-family: 'Lobster', cursive;
+	font-size: 50px;
+}
+
+
+.game-item-preorder{
+	position: relative;
+	width: 400px ;
+	height: 300px ;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+#miniCarousel{
+	width: 400px;
+	padding:10px;
+}
+
+.button-pre{
+	position: absolute;
+	margin-top: 10px;
+	right:10px;
+}
+
+.low-price-games{
+	display: -webkit-flex;
+	display: flex;
+	align-content: flex-start;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+}
+.low-price-item{
+	cursor: pointer;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	width: 160px;
+	height: 100px;
+	margin: 10px;
+}
+
+.low-price-item img{
+	width: 160px;
+	
+	padding: 15px;
+
+}
+
+
+
+/* LIST_ITEM */
+
+.searchbar{
+	padding:15px;
+	font-family: 'Sriracha', cursive;
+	font-size: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+}
+
+.searchbar input{
+	height: 34px;
+}
+
+.searchbar button{
+	margin-left:20px;
+}
+
+.searchbar select{
+	height: 34px;
+	min-width: 300px;
+
+}
+.panel-title{
+	font-family: 'Sriracha', cursive;
+	text-decoration-style: bold;
+	text-align: center;
+}
+
+.no-radius a{
+	border-radius: 0;
+	text-align: center;
+	font-family: 'Slabo 27px', serif;
+	font-size:20px;
+}
+.list-group-item{
+	border-bottom-right-radius: 0px!important;
+	border-bottom-left-radius: 0px!important;
+}
+.list-group-item:last-child{
+	border-bottom-right-radius: 0px!important;
+	border-bottom-left-radius: 0px!important;
+}
+
+/* POST */
+
+.post-name-zone{
+	font-family: 'Bangers', cursive;
+	font-size: 50px;
+}
+
+.post-short-intro{
+	padding: 7px;
+	width: 415px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	font-family: 'Sriracha', cursive;
+}
+.post-short-description{
+	padding: 5px;
+}
+
+.post-gerne{
+	padding: 5px;
+}
+.post-dev{
+	padding: 5px;
+}
+
+.post-price-zone{
+	width: 400px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	padding:10px;
+	font-family: 'Sriracha', cursive;
+}
+
+.post-price-zone .linh{
+	font-size: 20px;
+	text-align: center;
+}
+
+
+.post-requirement{
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	font-family: 'Sriracha', cursive;
+	font-size: 15px;
+}
+.post-price-zone .price{
+	margin-top: 20px;
+	font-family: 'Sriracha', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+
+.post-price-zone .add{
+	margin-top: 10px;
+}
+
+.back{
+	margin-top: 20px;
+	height: 40px;
+	width: 66px;
+}
+
+/*Estimate Title*/
+
+.estimate-title{
+	font-family: 'Sriracha', cursive;
+	font-size: 50px;
+	text-align: center;
+}
+
+.textbox-estimate{
+	font-family: 'Sriracha', cursive;
+}
+
+.textbox-estimate input{
+	color: black;
+	font-size: 30px;
+	width: 500px;
+	height: 60px;
+}
+.textbox-estimate button{
+	margin-top: 10px;
+	height: 50px;
+	width: 120px;
+}
+.estimated-price{
+	font-size: 40px;
+	margin-top: 10px;
+}
+
+.textbox-estimate .wrap-button{
+	margin-top: 10px;
+	height: 50px;
+	width: 200px;
+}
+
+/*Dashboard-Admin*/
+
+.loginmodal-container img{
+	width: 50px;
+	margin-bottom: 5px;
+}
+
+.loginmodal-container span{
+	font-family: 'Bangers';
+	font-size: 30px;
+}
+
+.button-group{
+	font-family: 'Sriracha', cursive;
+	margin-top: 20px;
+}
+
+
+/* Live search */
+#result a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.search-wrapper{
+	cursor: pointer;
+	position: absolute;
+	z-index: 200;
+	width: 430px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
+	right: 10px;
+	background-color: white;
+	top: 55px;
+}
+.result-container{
+	font-size: 15px;
+	font-family: 'Sriracha';
+	position: relative;
+	border-style:solid;
+	border-width: 0.1px;
+}
+.result-container .name{
+	position: absolute;
+	left: 170px;
+	top: 10px;
+}
+
+.result-container .price{
+	position: absolute;
+	bottom: 3px;
+	left:170px;
+}
